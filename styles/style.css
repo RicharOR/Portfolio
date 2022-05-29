@@ -178,17 +178,16 @@ header {
 
 .skills__container {
   display: grid;
-  gap: 15px;
-  grid-template-columns: repeat(3, minmax(35%, 1fr));
-  grid-template-rows: auto;
-  align-items: center;
-  justify-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 32%));
+  justify-content: space-evenly;
 }
 
 .skill {
   display: flex;
-  flex-flow: row wrap;
   width: 30%;
+  justify-self: center;
+  align-self: center;
 }
 
 .skill-img {
