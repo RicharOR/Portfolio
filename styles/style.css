@@ -95,7 +95,7 @@ header {
 
 .photo__img {
   vertical-align: top;
-  border-radius: 50%;
+  border-radius: 500px;
   border: 5px solid rgba(255, 255, 255, 0.35);
 }
 
@@ -237,11 +237,14 @@ header {
   .name {
     font-size: 35px;
   }
-
   .profession {
     font-size: 18px;
   }
   .project {
     width: 100%;
+  }
+  .container__social {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
