@@ -95,8 +95,9 @@ header {
 
 .photo__img {
   vertical-align: top;
-  border-radius: 500px;
+  border-radius: 100%;
   border: 5px solid rgba(255, 255, 255, 0.35);
+  width: 180px;
 }
 
 .about__text {
