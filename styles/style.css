@@ -25,6 +25,10 @@ body {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* !Header */
 header {
   background: url(../imgs/learning-web-design.jpg) var(--header-color);
