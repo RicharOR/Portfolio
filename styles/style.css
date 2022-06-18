@@ -239,6 +239,9 @@ header {
   .menu {
     text-align: center;
   }
+  .menu__links {
+    margin: 0 10px;
+  }
   .name {
     font-size: 35px;
   }
