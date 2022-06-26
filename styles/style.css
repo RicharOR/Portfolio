@@ -124,6 +124,10 @@ header {
   text-align: center;
 }
 
+.text__description {
+  text-align: left;
+}
+
 .bold {
   color: var(--title-color);
 }
